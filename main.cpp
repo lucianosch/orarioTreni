@@ -12,7 +12,7 @@ Progetto: OrarioTreni
 struct tratta{
 	/* Definire la struttura di ogni singola tratta */
 };
-int carica(char [], tratta []);
+int carica(tratta []);
 void stampa(tratta [], int);
 
 int main(){
