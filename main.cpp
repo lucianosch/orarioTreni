@@ -5,7 +5,7 @@ const int NRIGHE = 30;
 
 /*******
 Completare le informazioni
-Nome: 
+Nome:
 Progetto: OrarioTreni
 *******/
 
@@ -17,29 +17,20 @@ void stampa(tratta [], int);
 
 int main(){
 	tratta orario[NRIGHE];
-	char nomeFile[] = "orario.txt";
-	int ntratte = carica(nomeFile,orario);
+	int ntratte = carica(orario);
 	stampa(orario,ntratte);
 	return 0;
 }
-int carica(char nome[], tratta o[]){
-	int n;
-	fstream fin(nome,ios::in);
-	if (!fin.is_open())
-		cerr<<"Errore in apertura file!";
-	fin>>n;
-	if (n>NRIGHE)
-		n = NRIGHE;
-	for (int i = 0; i<n; i++)
-	{
-		fin>>o[i].destinazione>>o[i].partenza>>o[i].arrivo;
-	}
-	fin.close();
-	return n;
+int carica(tratta o[]){
+/*
+La funzione deve leggere da tastiera le informazioni relative
+a tutte le tratte restituendo il numero di tratte lette (max NRIGHE)
+*/
+
 }
 void stampa(tratta o[], int n){
 	for (int i=0; i<n; i++)
 	{
-	//Completare con le istruzioni mancanti
+
 	}
 }

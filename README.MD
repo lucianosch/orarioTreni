@@ -1,14 +1,19 @@
 Si deve realizzare un programma che fornisca informazioni su un orario ferroviario (ridotto).
 L'orario è strutturato come una tabella. Ogni riga contiene le seguenti informazioni:
 - destinazione (stringa 30 caratteri)
-- partenza (stringa 6 caratteri con formato HH:MM)
-- arrivo (stringa 6 caratteri con formato HH:MM).
-Scaricare il repo in locale sul vostro PC aprite il file main.cpp e completate 
+- partenza (intero compreso tra 0 e 1439)
+- arrivo (intero compreso tra 0 e 1439).
+L'orario è espresso in minuti:
+0 corrisponde all'orario 00:00, 1439 corrisponde all'orario 23:59.
+Per trasformare l'orario in ore e minuti si deve dividere per 60 e prendere quoziente (ore) e resto (minuti).
 
-1) la definizione della struttura di riga (tratta)
-2) la definizione della funzione stampa()
+Scaricare il repo in locale sul vostro PC aprite il file main.cpp e completate
 
-La stampa dell'orario deve rispettare il eguente formato:
+1) la definizione della struttura corrispondente alla riga (tratta) della tabella orario
+2) la definizione della funzione carica()
+3) la definizione della funzione stampa
+
+La stampa dell'orario deve rispettare il seguente formato:
 
 destinazione (su 10 caratteri) \t partenza \t arrivo
 
