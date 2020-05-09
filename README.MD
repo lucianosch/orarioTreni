@@ -19,10 +19,9 @@ destinazione (su 10 caratteri) \t partenza \t arrivo
 
 Righello di riferimento:
 
-0123456789----01234----01234
+0123456789012345678901234567
       Bari    09:00    10:35
-
-Potete aggiungere un'altra o più righe al file di testo (orario.txt)
+      
 Quando avete completato sincronizzate il repo locale con quello remoto.
 
 Questo è un compito semplice da svolgere soprattutto per prendere confidenza con i meccanismi di git.
