@@ -20,6 +20,7 @@ destinazione (su 10 caratteri) \t partenza \t arrivo
 Righello di riferimento:
 
 0123456789012345678901234567
+
       Bari    09:00    10:35
       
 Quando avete completato sincronizzate il repo locale con quello remoto.
